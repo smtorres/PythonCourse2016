@@ -7,7 +7,6 @@ def has_no_e(word):
 
 def has_no_e(word):
     return not 'e' in word
-    #return not 'e' in word.lower()
 
 def uses_only(word1,word2):
     """return true/false if word1 contains only letters from word2"""
