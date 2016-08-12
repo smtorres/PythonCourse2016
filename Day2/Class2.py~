@@ -79,9 +79,6 @@ class human(object):
 
 	def sayHi(self, otherHuman):
 		print '%s says hi to %s' % (self.name, otherHuman.name)
-
-	def writeFunc(self, func_type):
-		print 'I wrote a %s function' % (func_type)
 	
 	def __str__(self):
 		return 'Human: %d year-old %s.' % (self.age, self.sex)

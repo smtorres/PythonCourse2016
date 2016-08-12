@@ -27,6 +27,9 @@ class Fish(Animal):
   
   def __str__(self):
     return "I am a fish!"
+
+  def __repr__(self):
+    return "I am a fish!"
       
 animals = [Cat('Foo'),
            Dog('Bar'),
