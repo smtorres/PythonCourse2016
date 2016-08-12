@@ -4,6 +4,8 @@ def binarify(num):
   digits = []
   return ''.join(digits)
 
+  HI
+
 def int_to_base(num, base):
   """convert positive integer to a string in any base"""
   if num<=0:  return '0' 
