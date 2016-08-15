@@ -1,7 +1,3 @@
-# for numbers divisible by 3, print "Fizz"
-# for numbers divisible by 5, print "Buzz"
-# for numbers divisible by 3 and 5, print "FizzBuzz"
-# otherwise, print the number
 
 def FizzBuzz(i):
   try:

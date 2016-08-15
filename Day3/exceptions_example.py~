@@ -19,8 +19,8 @@ def i_call_a_function_with_errors():
     print "Custom Error Caught! Error({0})".format(inst.value)
   except NameError, AttributeError:
     print "Whoa, chill out"
-#  except: # any exception is caught, even ones you don't know about
-#    print "Default Error Caught!"
+  except: # any exception is caught, even ones you don't know about
+    print "Default Error Caught!"
   else: # if nothing broke, then run this block
     print "No error raised."
     traceback.print_exc() # this prints the traceback

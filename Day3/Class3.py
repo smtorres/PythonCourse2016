@@ -2,7 +2,7 @@ raise Exception
 print "I raised an exception!"
 
 try:
-	print b
+    print b
 except NameError:
 	print "oops name error"	
 except:
