@@ -3,3 +3,4 @@ b
 c
 
 I got appended!
+I got appended!
