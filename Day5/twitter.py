@@ -12,6 +12,11 @@ auth = tweepy.OAuthHandler('your consumer key', 'your consumer secret') ##Never 
 auth.set_access_token('your access token', 'your access token secret')    
 api = tweepy.API(auth)
 
+#import imp
+#twitt=imp.load_source('twitt', '/home/david/Dropbox/Code/twitter_api.py')
+#twitt.api
+
+
 #See rate limit
 api.rate_limit_status()
 

@@ -12,6 +12,11 @@ auth = tweepy.OAuthHandler('your consumer key', 'your consumer secret') ##Never 
 auth.set_access_token('your access token', 'your access token secret')    
 api = tweepy.API(auth)
 
+#import imp
+#twitt=imp.load_source('twitt', '/home/david/Dropbox/Code/twitter_api.py')
+#twitt.api
+
+
 #See rate limit
 api.rate_limit_status()
 
@@ -58,7 +63,7 @@ for follower_id in betuld.followers_ids():
 krugmans_followers=[]
 
 for page in tweepy.Cursor(api.followers_ids, 'NYTimeskrugman').pages(2):
-    krugmans_followers.extend(page)
+    krugmans_followers.extend(page) #extend is like extend, but can take arguments with length greater than 1
     time.sleep(60)
     
 #Get the ids of 6000 followers
